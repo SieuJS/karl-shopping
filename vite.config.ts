@@ -2,7 +2,6 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react-swc'
 import {resolve} from 'path'
 import tsconfigPaths from 'vite-tsconfig-paths'
-import { register } from 'module';
 
 const root = resolve(__dirname, 'src');
 const outDir = resolve(__dirname, 'dist'); 
